@@ -3,7 +3,7 @@
 **important: 在下载项目之后运行代码之前，请先执行以下操作:**
 
 1. 先到[这里](http://yaroslavvb.com/upload/notMNIST/)下载数据集notMNIST_large.tar.gz和notMNIST_small.tar.gz并放在项目根目录
-2. 运行exercise1中的初始化代码，生成notMNIST_large文件夹和notMNIST_small文件夹
+2. 运行exercise1中的初始化代码，生成notMNIST_large文件夹和notMNIST_small文件夹以及notMNIST.pickle等文件
 
 ----
 
