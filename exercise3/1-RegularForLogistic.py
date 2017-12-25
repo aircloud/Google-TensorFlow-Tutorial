@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 
 pickle_file = '../notMNIST.pickle'
 
+# 从持久化文件中取得数据
 with open(pickle_file, 'rb') as f:
   save = pickle.load(f)
   train_dataset = save['train_dataset']

@@ -1,9 +1,11 @@
 
-## 基本的CNN
+## 任务
+
+### 基本的CNN
 
 我们这里的CNN用到了两个卷积层，一个隐藏层，一个输出层。
 
-## 添加池化的CNN
+### 添加池化的CNN
 
 实际上改动代码比较少，主要改动了CNN执行函数的前两层执行代码:
 
@@ -16,7 +18,7 @@
     pool2 = tf.nn.max_pool(conv2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
 ```
 
-## 添加Dropout的CNN
+### 添加Dropout的CNN
 
 这里我实际上做了三个工作：
 
