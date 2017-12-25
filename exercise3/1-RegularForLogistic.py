@@ -46,7 +46,6 @@ def accuracy(predictions, labels):
 # logistic model
 batch_size = 128
 
-
 graph = tf.Graph()
 with graph.as_default():
     # Input data. For the training data, we use a placeholder that will be fed
